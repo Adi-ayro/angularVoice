@@ -1,0 +1,14 @@
+    <p-button icon="pi pi-microphone" (onClick)="startListening()" />
+
+    <p-autoComplete 
+    [placeholder]="placeholder"
+    [(ngModel)]="results"
+    [suggestions]="suggestions"
+    (completeMethod)="search($event)" 
+    [forceSelection]="true"
+    #autoComplete/>
+
+    <p-button icon="pi pi-refresh" (onClick)="refresh()"/>
+    <p-button icon="pi pi-search" />
+
+
