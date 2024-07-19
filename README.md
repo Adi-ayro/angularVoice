@@ -6,22 +6,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Code Structure
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`app\data` contains a list of places that are used as meta for autocomplete \
+`app\search` contains component data for voice search and and index
 
-## Build
+## Dependencies
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Prime NG is used as autocomplete and buttons \
+Prime Icons is the Icon Library \
+WebkitSpeechRecognition API is used for Voice Detection 
 
-## Running unit tests
+### Refrences
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+WebkitSpeechRecognition `https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition` \
+Prime NG `https://primeng.org/autocomplete` \
+Prime Icons `https://primeng.org/icons` 
